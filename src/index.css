@@ -31,6 +31,7 @@ body {
 }
 
 a > i{
+  color: white;
   position: fixed;
   bottom: 3%;
   right: 1%;
