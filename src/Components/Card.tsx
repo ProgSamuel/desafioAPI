@@ -28,6 +28,8 @@ const CardStyled = styled.div`
   }
   i{
     margin-right:.7rem;
+    width: 1rem;
+    height: 1rem;
   }
 `;
 
