@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      {isLoading && <p>Loading...</p>}
+      {isLoading &&<span className="loader"></span>}
 
       <div className="star star1"></div>
       <div className="star star2"></div>
