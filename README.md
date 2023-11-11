@@ -1,27 +1,67 @@
-# React + TypeScript + Vite
+# 🌌 StellarAtlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StellarAtlas is a React web application that lets you explore celestial bodies in our solar system. It fetches data from [le-systeme-solaire API](https://api.le-systeme-solaire.net/) and provides a user-friendly interface for discovering stars, planets, moons, comets, dwarf planets, and asteroids.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Data Loading:** StellarAtlas fetches real-time information about celestial bodies.
+- **Search:** Easily find celestial bodies by entering their names.
+- **Filters:** Explore by type - stars, planets, moons, comets, dwarf planets, and asteroids.
+- **Informative Cards:** Each celestial body is presented on a card with key details.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clone the repository:**
 
-- Configure the top-level `parserOptions` property like this:
+    ```bash
+    git clone https://github.com/your-username/StellarAtlas.git
+    ```
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+2. **Navigate to the project directory:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```bash
+    cd StellarAtlas
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Start the development server:**
+
+    ```bash
+    npm start
+    ```
+
+5. **Explore StellarAtlas:**
+
+    Open your browser and visit [http://localhost:3000](http://localhost:3000).
+    
+##  💻 Deploy
+
+The application is available  [here](https://app.netlify.com/sites/stellaratlas/overview)  to view online.
+
+## 🌟 Usage
+
+- Use the filter dropdown to narrow down celestial bodies based on their types.
+- Enter a celestial body's name in the search bar to quickly find and highlight it.
+- Each celestial body is presented in an informative card.
+
+## 🎉 Credits
+
+- **Data Source:** [le-systeme-solaire API](https://api.le-systeme-solaire.net/)
+- **Built with:** [React](https://reactjs.org/)
+
+## 🤝 Contributing
+
+Contributions are welcome! Open issues or submit pull requests to enhance StellarAtlas.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**Note:** Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
