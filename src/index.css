@@ -30,7 +30,15 @@ body {
   scroll-behavior: smooth;
 }
 
-.home{
+a > i{
+  position: fixed;
+  bottom: 3%;
+  right: 1%;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+#home{
   width: 100%;
   height: 45vh;
 display: flex;

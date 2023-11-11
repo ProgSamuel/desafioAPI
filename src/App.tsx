@@ -39,7 +39,9 @@ function App() {
       <div className="star star9"></div>
       <div className="star star10"></div>
 
-      <div className='home'>
+      <a href="#home"><i className="fa-solid fa-circle-arrow-up"></i></a>
+
+      <div id='home'>
         <h1> StellarAtlas </h1>
         <form action="">
           <select name="Filter" onChange={(e) => setFilter(e.target.value)}>
