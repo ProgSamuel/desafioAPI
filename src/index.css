@@ -98,8 +98,14 @@ select {
   border: 1px solid white;
   z-index: 1;
   margin-top: 20px;
+  margin-bottom: 20px;
   background: transparent;
   color: white;
+}
+
+option{
+  border-top: none !important;
+  background-color: black;
 }
 
 input {
